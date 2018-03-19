@@ -16,8 +16,8 @@ public class Model implements IModel {
 			e.printStackTrace();
 		}
 		
-		while(sc.hasNext()){
-			r += sc.next();
+		while(sc.hasNextLine()){
+			r += sc.nextLine();
 		}
 		return r;
 	}
